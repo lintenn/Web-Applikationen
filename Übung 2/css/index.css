@@ -1,0 +1,39 @@
+header {
+    background: red;
+    display: flex; 
+    justify-content: center;
+}
+
+main {
+    display: flex; 
+}
+
+#menu {
+    background-color: cyan;
+    padding: 10px;
+}
+
+.contentClass {
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border: 2px solid cyan;
+    margin: 5px;
+    padding: 5px;
+}
+
+div div p {
+    font-weight: bold;
+}
