@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 
+const { log } = require('console');
 var app = require('../app');
 var debug = require('debug')('bung-5:server');
 var http = require('http');
@@ -12,7 +13,11 @@ var http = require('http');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '80'); // Changed 3000 to 80
+var port = normalizePort(process.env.PORT || '3000');
+//show in terminal the port
+console.log("Executing in " + port);
+
+// Changed 3000 to 80
 app.set('port', port);
 
 /**
